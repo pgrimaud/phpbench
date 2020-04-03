@@ -4,7 +4,7 @@
  * @Revs(1000000)
  * @Iterations(5)
  */
-class FirstElementOfArray
+class GetFirstElementOfArray
 {
     const TEST_ARRAY = [
         'A', 'B', 'C',

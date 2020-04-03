@@ -20,12 +20,12 @@ bin/bench benchmarks
 Run specific test
 
 ```
-bin/bench benchmarks/FirstElementOfArray.php
+bin/bench benchmarks/GetFirstElementOfArray.php
 ```
 
 ## Results
 
-Test [first element of array](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/FirstElementOfArray.php)
+[Get first element of array](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/FirstElementOfArray.php)
 
 ```shell script
 +-------------------+---------+-------+

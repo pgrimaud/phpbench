@@ -23,5 +23,7 @@ Run specific test
 bin/bench benchmarks/FirstElementOfArray.php
 ```
 
+## Results
+
 ## LICENSE
 Licensed under the terms of the MIT License.

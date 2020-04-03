@@ -25,7 +25,7 @@ bin/bench benchmarks/GetFirstElementOfArray.php
 
 ## Results
 
-[Get first element of array](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/FirstElementOfArray.php)
+[Get first element of array](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/GetFirstElementOfArray.php)
 
 ```shell script
 +-------------------+---------+-------+

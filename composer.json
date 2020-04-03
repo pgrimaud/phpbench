@@ -1,0 +1,15 @@
+{
+  "name": "pgrimaud/phpbench",
+  "description": "Some personal PHP benchmarks - Very nice! WoW!",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pierre Grimaud",
+      "email": "grimaud.pierre@gmail.com"
+    }
+  ],
+  "require": {
+    "phpbench/phpbench": "^0.17.0"
+  }
+}

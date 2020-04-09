@@ -62,7 +62,19 @@ bin/bench benchmarks/GetFirstElementOfArray.php
 | benchWithArraySlice                | 33.904μs | 1.09x |
 | benchWithArrayReverseAndArrayShift | 94.314μs | 3.03x |
 +------------------------------------+----------+-------+
+```
 
+[Create new object](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/CreateNewObject.php) (thanks @nicolasbonnici)
+
+```shell script
++-------------------------------+---------+-------+
+| subject                       | mean    | diff  |
++-------------------------------+---------+-------+
+| benchWithArrayAndCast         | 0.086μs | 1.00x |
+| benchWithAnonymousDeclaration | 0.088μs | 1.02x |
+| benchWithJsonEncode           | 0.114μs | 1.32x |
+| benchWithSdtClass             | 0.124μs | 1.44x |
++-------------------------------+---------+-------+
 ```
 
 ## LICENSE

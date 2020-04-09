@@ -57,9 +57,9 @@ bin/bench benchmarks/GetFirstElementOfArray.php
 +------------------------------------+----------+-------+
 | subject                            | mean     | diff  |
 +------------------------------------+----------+-------+
-| benchWithAndArrayPop               | 31.149μs | 1.00x |
-| benchWithAndUnset                  | 32.279μs | 1.04x |
-| benchWithAndArraySlice             | 33.904μs | 1.09x |
+| benchWithArrayPop                  | 31.149μs | 1.00x |
+| benchWithUnset                     | 32.279μs | 1.04x |
+| benchWithArraySlice                | 33.904μs | 1.09x |
 | benchWithArrayReverseAndArrayShift | 94.314μs | 3.03x |
 +------------------------------------+----------+-------+
 

@@ -19,19 +19,19 @@ class RemoveLastElementOfLargeArray
         }
     }
 
-    public function benchWithAndArrayPop()
+    public function benchWithArrayPop()
     {
         $array = $this->largeArray;
         array_pop($array);
     }
 
-    public function benchWithAndUnset()
+    public function benchWithUnset()
     {
         $array = $this->largeArray;
         unset($array[count($array) - 1]);
     }
 
-    public function benchWithAndArraySlice()
+    public function benchWithArraySlice()
     {
         $array = $this->largeArray;
         array_slice($array, 0, -1, true);

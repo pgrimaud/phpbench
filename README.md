@@ -64,7 +64,7 @@ bin/bench benchmarks/GetFirstElementOfArray.php
 +------------------------------------+----------+-------+
 ```
 
-[Create new object](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/CreateNewObject.php) (thanks @nicolasbonnici)
+[Create new object](https://github.com/pgrimaud/phpbench/blob/master/benchmarks/CreateNewObject.php) (thanks [@nicolasbonnici](https://github.com/nicolasbonnici))
 
 ```shell script
 +-------------------------------+---------+-------+

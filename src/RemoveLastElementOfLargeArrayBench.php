@@ -1,10 +1,13 @@
 <?php
 
+use PhpBench\Benchmark\Metadata\Annotations\Iterations;
+use PhpBench\Benchmark\Metadata\Annotations\Revs;
+
 /**
  * @Revs(10000)
  * @Iterations(5)
  */
-class RemoveLastElementOfLargeArray
+class RemoveLastElementOfLargeArrayBench
 {
     /**
      * @var array

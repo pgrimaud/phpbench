@@ -1,5 +1,8 @@
 <?php
 
+use PhpBench\Benchmark\Metadata\Annotations\Iterations;
+use PhpBench\Benchmark\Metadata\Annotations\Revs;
+
 /**
  * @Revs(1000000)
  * @Iterations(5)

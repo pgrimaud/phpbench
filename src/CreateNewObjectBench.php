@@ -1,10 +1,13 @@
 <?php
 
+use PhpBench\Benchmark\Metadata\Annotations\Iterations;
+use PhpBench\Benchmark\Metadata\Annotations\Revs;
+
 /**
  * @Revs(1000000)
  * @Iterations(10)
  */
-class CreateNewObject
+class CreateNewObjectBench
 {
     public function benchWithSdtClass()
     {
